@@ -18,7 +18,7 @@ class OtpServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__.'/../resources/views','otp');
+        // $this->loadViewsFrom(__DIR__.'/../resources/views','otp');
 
         $this->publishes([
             __DIR__.'/../config/otp.php' => config_path('otp.php')
